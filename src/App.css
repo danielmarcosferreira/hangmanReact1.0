@@ -1,0 +1,108 @@
+main {
+  margin: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+main img {
+  width: 400px;
+}
+
+.mainRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .mainRight button {
+  background-color: green;
+  color: white;
+  margin-top: 60px;
+  width: 210px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mainRight h3 {
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+li {
+  background-color: rgb(140, 196, 196);
+  border: 1px solid rgb(11, 159, 159);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .chute {
+  display: flex;
+  align-items: center;
+}
+
+footer .chute p,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 15px;
+}
+
+footer .chute input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+footer .chute button {
+  background-color: rgb(140, 196, 196);
+  border: 1px solid rgb(11, 159, 159);
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bloqueado {
+  background-color: rgb(65, 57, 57);
+  border: 1px solid black;
+  /* :disabled */
+  cursor: auto;
+}
