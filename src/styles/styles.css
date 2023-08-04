@@ -101,8 +101,12 @@ footer .chute button {
 }
 
 .bloqueado {
-  background-color: rgb(65, 57, 57);
+  background-color: rgb(133, 123, 123);
   border: 1px solid black;
   /* :disabled */
   cursor: auto;
+}
+
+.desabilitado:disabled {
+  display: none;
 }

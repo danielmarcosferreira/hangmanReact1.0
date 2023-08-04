@@ -7,12 +7,12 @@ export default function Footer() {
         <footer>
             <div className='letras'>
                 <ul>
-                    {alfabeto.map((l) => <li className="">{l}</li>)}
+                    {alfabeto.map((l) => <li className="bloqueado">{l}</li>)}
                 </ul>
             </div>
             <div className="chute">
                 <p>Já sei a palavra!</p>
-                <input></input>
+                <input className="desabilitado"></input>
                 <button>Chutar</button>
             </div>
         </footer>
